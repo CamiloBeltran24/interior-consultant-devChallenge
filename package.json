@@ -1,0 +1,25 @@
+{
+  "name": "interior-consultant-devchallenge",
+  "version": "1.0.0",
+  "description": "Solucion para reto Frontend de devChallenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloBeltran24/interior-consultant-devChallenge.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Frontend."
+  ],
+  "author": "Christian Camilo Beltran Fonseca <cambelf.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloBeltran24/interior-consultant-devChallenge/issues"
+  },
+  "homepage": "https://github.com/CamiloBeltran24/interior-consultant-devChallenge#readme"
+}
