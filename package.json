@@ -4,7 +4,8 @@
   "description": "Solucion para reto Frontend de devChallenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/styles.scss css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/CamiloBeltran24/interior-consultant-devChallenge/issues"
   },
-  "homepage": "https://github.com/CamiloBeltran24/interior-consultant-devChallenge#readme"
+  "homepage": "https://github.com/CamiloBeltran24/interior-consultant-devChallenge#readme",
+  "devDependencies": {
+    "sass": "^1.44.0"
+  }
 }
