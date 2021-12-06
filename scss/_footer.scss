@@ -1,0 +1,14 @@
+footer {
+  grid-column: 1/11;
+  color: $gray-2;
+  p {
+    font-family: $font-monserrat;
+    font-size: 1.2rem;
+    text-align: center;
+    a {
+      // text-decoration: none;
+      color: $gray-2;
+      font-weight: 700;
+    }
+  }
+}

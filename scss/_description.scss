@@ -1,0 +1,29 @@
+.description {
+  grid-column: 1 / 11;
+  h1 {
+    font-size: 3.6rem;
+    font-family: $font-lora;
+    color: $white;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 2.5rem;
+  }
+  p {
+    font-size: 1.4rem;
+    font-family: $font-monserrat;
+    font-weight: 400;
+    color: $white;
+    max-width: 250px;
+    margin-bottom: 25px;
+  }
+  .readMore {
+    grid-column: 1 / 5;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: 700;
+    span {
+      margin-left: 1.5rem;
+    }
+  }
+}
