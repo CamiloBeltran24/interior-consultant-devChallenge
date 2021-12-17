@@ -35,7 +35,7 @@ body {
 .header .nav {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -63,7 +63,7 @@ body {
 .header .nav ul li {
   display: inline;
   height: 3rem;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   margin: 0 auto 2.4rem;
   text-align: center;
 }
@@ -75,7 +75,7 @@ body {
   text-transform: capitalize;
 }
 .header .nav ul li a:active {
-  font-weight: 700;
+  font-weight: 600;
 }
 .header .nav ul li:hover {
   border-color: #ffffff;
