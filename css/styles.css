@@ -23,6 +23,9 @@ body {
   place-content: center;
   padding: 1.5rem;
 }
+.grid-container .main-container {
+  grid-column: 1/11;
+}
 
 .header {
   height: 50px;
@@ -104,9 +107,6 @@ body {
   fill: #f2f2f2;
 }
 
-.description {
-  grid-column: 1/11;
-}
 .description h1 {
   font-size: 3.6rem;
   font-family: "Lora", serif;
@@ -128,6 +128,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-bottom: 3.5rem;
   font-weight: 700;
 }
 .description .readMore span {
@@ -135,7 +136,6 @@ body {
 }
 
 .interior-view {
-  grid-column: 1/11;
   position: relative;
 }
 .interior-view picture {
@@ -256,6 +256,22 @@ footer p a {
 @media (min-width: 1024px) {
   .grid-container {
     padding: 4.2rem;
+    max-width: 1440px;
+    margin: auto;
+  }
+  .grid-container .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grid-container .main-container .description {
+    width: 40%;
+  }
+  .grid-container .main-container .description h1 {
+    font-size: 4.8rem;
+  }
+  .grid-container .main-container .interior-view {
+    width: 60%;
   }
 
   .header {

@@ -30,6 +30,22 @@
 @media (min-width: 1024px) {
   .grid-container {
     padding: 4.2rem;
+    max-width: 1440px;
+    margin: auto;
+    .main-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .description {
+        width: 40%;
+        h1 {
+          font-size: 4.8rem;
+        }
+      }
+      .interior-view {
+        width: 60%;
+      }
+    }
   }
   .header {
     justify-content: space-between;

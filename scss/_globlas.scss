@@ -20,4 +20,7 @@ body {
   grid-auto-rows: min-content;
   place-content: center;
   padding: 1.5rem;
+  .main-container {
+    grid-column: 1 / 11;
+  }
 }
