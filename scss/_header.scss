@@ -39,18 +39,16 @@
         margin: 0 auto 2.4rem;
         text-align: center;
         a {
+          display: block;
           text-decoration: none;
           color: $white;
           font-family: $font-monserrat;
           font-size: 1.8rem;
           text-transform: capitalize;
+          border-bottom: 2px solid transparent;
           &:active {
             font-weight: 600;
           }
-        }
-        &:hover {
-          border-color: $white;
-          font-weight: 700;
         }
         &:active {
           border-color: $white;

@@ -72,18 +72,16 @@ body {
   text-align: center;
 }
 .header .nav ul li a {
+  display: block;
   text-decoration: none;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   text-transform: capitalize;
+  border-bottom: 2px solid transparent;
 }
 .header .nav ul li a:active {
   font-weight: 600;
-}
-.header .nav ul li:hover {
-  border-color: #ffffff;
-  font-weight: 700;
 }
 .header .nav ul li:active {
   border-color: #ffffff;
@@ -130,6 +128,7 @@ body {
   margin: 0;
   margin-bottom: 3.5rem;
   font-weight: 700;
+  border-bottom: 1px solid transparent;
 }
 .description .readMore span {
   margin-left: 1.5rem;
@@ -279,7 +278,6 @@ footer p a {
   }
   .header .nav {
     position: static;
-    grid-column: 6/11;
     width: 50%;
     height: 100%;
     align-self: flex-end;
@@ -292,15 +290,47 @@ footer p a {
     justify-content: space-around;
   }
   .header .nav ul li {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+  }
+  .header .nav ul li a {
+    transition: all 0.2s ease-in-out;
+    font-weight: 400;
+  }
+  .header .nav ul li a:hover {
+    font-weight: 600;
+    border-color: #ffffff;
   }
   .header .header__menu-buttons {
     display: none;
   }
   .header .burguer-menu {
     display: none;
+  }
+
+  .description h1 {
+    margin-bottom: 4rem;
+  }
+  .description p {
+    font-size: 2.4rem;
+    max-width: 45rem;
+    margin-bottom: 4.8rem;
+  }
+  .description .readMore {
+    cursor: pointer;
+    width: max-content;
+    font-size: 1.8rem;
+  }
+  .description .readMore:hover {
+    border-color: #ffffff;
+  }
+
+  .space {
+    height: 10rem;
   }
 }
 
