@@ -41,14 +41,21 @@
         h1 {
           font-size: 4.8rem;
         }
+        .description-text {
+          line-height: 29px;
+          max-width: 410px;
+          max-height: 145px;
+        }
       }
       .interior-view {
-        width: 60%;
+        width: 55%;
+        max-width: 825px;
       }
     }
   }
   .header {
-    justify-content: space-between;
+    // justify-content: space-between;
+    margin-bottom: 85px;
     .nav {
       position: static;
       // grid-column: 6 / 11;
